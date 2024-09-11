@@ -1,5 +1,11 @@
 import Navbar from "@/Components/Navbar/Navbar";
+import type { Metadata } from "next";
 import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "Music School",
+  description: "Start your journey here! The Music School",
+};
 
 export default function RootLayout({
   children,
